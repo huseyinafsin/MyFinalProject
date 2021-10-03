@@ -16,3 +16,5 @@ C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\obj\Debug\net5.0\DataAc
 C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
 C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
 C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\bin\Debug\net5.0\Core.dll
+C:\Users\pantheon\source\repos\MyFinalProject\DataAccess\bin\Debug\net5.0\Core.pdb

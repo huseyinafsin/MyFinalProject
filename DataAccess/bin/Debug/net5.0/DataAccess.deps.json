@@ -8,23 +8,15 @@
     ".NETCoreApp,Version=v5.0": {
       "DataAccess/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
-          "System.Linq.Expressions": "4.3.0",
-          "Unipluss.Sign.Client": "1.0.2876"
+          "System.Linq.Expressions": "4.3.0"
         },
         "runtime": {
           "DataAccess.dll": {}
-        }
-      },
-      "AutoMapper/4.1.1": {
-        "runtime": {
-          "lib/net45/AutoMapper.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.1.1.0"
-          }
         }
       },
       "EntityFramework/6.4.4": {
@@ -414,14 +406,6 @@
           }
         }
       },
-      "protobuf-net/2.0.0.668": {
-        "runtime": {
-          "lib/net40/protobuf-net.dll": {
-            "assemblyVersion": "2.0.0.668",
-            "fileVersion": "2.0.0.668"
-          }
-        }
-      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -459,14 +443,6 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "ServiceStack.Text/3.9.38": {
-        "runtime": {
-          "lib/net35/ServiceStack.Text.dll": {
-            "assemblyVersion": "3.9.38.0",
-            "fileVersion": "3.9.38.0"
           }
         }
       },
@@ -1156,40 +1132,18 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Unipluss.Sign.Client/1.0.2876": {
+      "Core/1.0.0": {
         "dependencies": {
-          "AutoMapper": "4.1.1",
-          "ServiceStack.Text": "3.9.38",
-          "protobuf-net": "2.0.0.668"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
         "runtime": {
-          "lib/net4/Unipluss.Sign.Client.Common.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net4/Unipluss.Sign.Client.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net4/Unipluss.Sign.Common.Rest.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net4/Unipluss.Sign.Common.Validation.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net4/Unipluss.Sign.ExternalContract.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/net40/Unipluss.Sign.Client.dll": {
-            "assemblyVersion": "1.0.2876.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Core.dll": {}
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "runtime": {
           "Entities.dll": {}
         }
@@ -1201,13 +1155,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "AutoMapper/4.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wTNIFaF21i0heEEOMOLn4Ki991I+b6Ls+tiwTvmzVhkLo5PmSJcNLuf2eGJEtUnQ3UDBTAAdZEaXAgbTqOe2pg==",
-      "path": "automapper/4.1.1",
-      "hashPath": "automapper.4.1.1.nupkg.sha512"
     },
     "EntityFramework/6.4.4": {
       "type": "package",
@@ -1412,13 +1359,6 @@
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
     },
-    "protobuf-net/2.0.0.668": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Lgj+Kf1+RV0utKxX9u1WEcymPGrbWrj/AwFmFADFLLa/LLdc1ji2MIGcecFRAGUu6UO8BRbdjZAIYWvLlN1B/A==",
-      "path": "protobuf-net/2.0.0.668",
-      "hashPath": "protobuf-net.2.0.0.668.nupkg.sha512"
-    },
     "runtime.native.System/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1453,13 +1393,6 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "ServiceStack.Text/3.9.38": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-t7968uk9PyqX69L9+5WLrRPcmkADzkbKlG5m6k5VzJcOMdvV6SF7Rls69o/S7K6lT3+KU6GgijYmlNu7EHc9LA==",
-      "path": "servicestack.text/3.9.38",
-      "hashPath": "servicestack.text.3.9.38.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",
@@ -1930,12 +1863,10 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Unipluss.Sign.Client/1.0.2876": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/Ncgr/yGSh9pHG74kVZ6O1sugxehCaC1iimeudfSlcUznDZT9ncixv6Ss5Jn99hV1kkn0wAXRUGKDeCU2n1KeA==",
-      "path": "unipluss.sign.client/1.0.2876",
-      "hashPath": "unipluss.sign.client.1.0.2876.nupkg.sha512"
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Entities/1.0.0": {
       "type": "project",

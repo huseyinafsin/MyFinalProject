@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +11,5 @@ namespace Entities.Concrete
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
-        public int MyProperty { get; set; }
     }
 }

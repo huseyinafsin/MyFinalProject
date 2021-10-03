@@ -18,3 +18,5 @@ C:\Users\pantheon\source\repos\MyFinalProject\Business\obj\Debug\net5.0\Business
 C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Business.runtimeconfig.json
 C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Business.runtimeconfig.dev.json
 C:\Users\pantheon\source\repos\MyFinalProject\Business\obj\Debug\net5.0\Business.genruntimeconfig.cache
+C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Core.dll
+C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Core.pdb
