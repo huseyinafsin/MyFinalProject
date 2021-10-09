@@ -1,25 +1,24 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Core.Utilities.NewFolder.Results;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Result
 {
     public class DataResult<T> : Result, IDataResult<T>
     {
-        public DataResult(T data, bool succes, string message): base(succes,message)
+        public DataResult(T data, bool success, string message) : base(success, message)
         {
             Data = data;
         }
 
-        public DataResult(T data, bool succes):base(succes)
+        public DataResult(T data, bool success) : base(success)
         {
             Data = data;
         }
+
+   
         public T Data { get; }
-      
     }
 }

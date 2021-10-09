@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Core.Utilities.NewFolder.Results;
+using Core.Entities;
 
-namespace Core.Utilities.Results
+namespace Core.Utilities.Result
 {
     public interface IDataResult<T> : IResult
     {
-        T Data { get; }
+        public T Data { get; }
     }
 }

@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Utilities.NewFolder.Results
+namespace Core.Entities
 {
     public interface IResult
     {
-        
         public bool Success { get; }
-        public string Message { get; }
-
+        public string Message { get;  }
     }
 }

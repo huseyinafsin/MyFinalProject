@@ -8,8 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Business.Constants;
-using Core.Utilities.NewFolder.Results;
-using Core.Utilities.Results;
+using Core.Entities;
+using Core.Utilities.Result;
 
 namespace Business.Concrete
 {
@@ -63,7 +63,7 @@ namespace Business.Concrete
                 return new  ErrorResult(Messages.ProductNameInvalid);
             }
             _productDal.Add(product);
-            return  new SuccesResult(Messages.ProductAdded);
+            return  new SuccessResult(Messages.ProductAdded);
         }
     }
 }
