@@ -16,7 +16,6 @@ C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.Gen
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfo.cs
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
@@ -73,3 +72,10 @@ C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Business.p
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Entities.pdb
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Core.pdb
 C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Autofac.dll
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\pantheon\source\repos\MyFinalProject\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -1,12 +1,9 @@
 ﻿using Core.Entities;
-using DataAccess.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.DataAccess.EntityFramework
 {
@@ -35,11 +32,11 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
             using (TContext context = new TContext())
             {
-                return filter == null ? context.Set<TEntity>().SingleOrDefault() : context.Set<TEntity>().SingleOrDefault(filter);
+                return  context.Set<TEntity>().SingleOrDefault(filter);
             }
         }
 

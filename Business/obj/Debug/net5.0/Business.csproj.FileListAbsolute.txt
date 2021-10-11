@@ -19,4 +19,3 @@ C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Business
 C:\Users\pantheon\source\repos\MyFinalProject\Business\obj\Debug\net5.0\Business.genruntimeconfig.cache
 C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Core.dll
 C:\Users\pantheon\source\repos\MyFinalProject\Business\bin\Debug\net5.0\Core.pdb
-C:\Users\pantheon\source\repos\MyFinalProject\Business\obj\Debug\net5.0\Business.csproj.CopyComplete

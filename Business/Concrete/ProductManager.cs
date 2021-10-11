@@ -8,8 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Entities;
 using Core.Utilities.Result;
+using FluentValidation;
+using FluentValidation.Validators;
 
 namespace Business.Concrete
 {
@@ -52,17 +57,14 @@ namespace Business.Concrete
 
         public IDataResult<Product> GetById(int productId)
         {
-            //magic string
             return new SuccessDataResult<Product> (_productDal.Get(p => p.ProductId == productId), Messages.ProductListed);
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length<2)
-            {
-                return new  ErrorResult(Messages.ProductNameInvalid);
-            }
             _productDal.Add(product);
+
             return  new SuccessResult(Messages.ProductAdded);
         }
     }
