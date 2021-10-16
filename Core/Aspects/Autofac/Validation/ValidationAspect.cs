@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 using Castle.DynamicProxy;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Interceptors;
+using Core.Utilities.Messages;
 using FluentValidation;
 
 namespace Core.Aspects.Autofac.Validation
 {
-    public class ValidationAspect : MethodInterception
+   public class ValidationAspect : MethodInterception
     {
         private Type _validatorType;
         public ValidationAspect(Type validatorType)
         {
             if (!typeof(IValidator).IsAssignableFrom(validatorType))
             {
-                throw new System.Exception("Bu bir doğrulama sınıı değil!");
+                throw new System.Exception(AspectsMessages.WrongValidationType);
             }
 
             _validatorType = validatorType;
