@@ -7,9 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Entities;
@@ -30,7 +33,7 @@ namespace Business.Concrete
             _productDal = productDal;
             _categoryService = categoryService;
         }
-
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour==11)
@@ -58,38 +61,39 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(),Messages.ProductListed) ;
         }
-
+        
+        [CacheAspect]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product> (_productDal.Get(p => p.ProductId == productId), Messages.ProductListed);
         }
 
+        [SecuredOperation("product.add")]
+        [CacheRemoveAspect("IProductService.Get")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (CheckIfProductOfCategoryCorrect(product.CategoryId).Success)
-            {
-                if (CheckIfProductNameIsExist(product.ProductName).Success)
-                {
-                                    _productDal.Add(product);
+            IResult result = BusinessRules.Run(CheckIfProductNameIsExist(product.ProductName),
+                                                CheckIfProductOfCategoryCorrect(product.CategoryId),
+                                                CheckIfCategoryLimitExceded());
 
-                    return new ErrorResult();
-                }
-                return new SuccessResult(Messages.ProductAdded);
+            if (result != null)
+            {
+                return result;
             }
 
-            return new ErrorResult();
-           
+            _productDal.Add(product);
+
+            return new SuccessResult(Messages.ProductAdded);
 
         }
-
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product)
         {
-            IResult result = BusinessRules.Run( CheckIfProductNameIsExist(product.ProductName),
-            CheckIfProductOfCategoryCorrect(product.CategoryId),
-            CheckIfCategoryLimitExceded(product.CategoryId));
-
-
+            IResult result = BusinessRules.Run(CheckIfProductNameIsExist(product.ProductName),
+                CheckIfProductOfCategoryCorrect(product.CategoryId),
+                CheckIfCategoryLimitExceded());
+            
             if (result != null)
             {
                 return result;
@@ -97,7 +101,15 @@ namespace Business.Concrete
             
             _productDal.Update(product);
 
-            return new SuccessResult(Messages.ProductAdded);
+            return new SuccessResult(Messages.ProductUpdated);
+
+        }
+
+        [TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            Add(product);
+            return new SuccessResult();
 
         }
 
@@ -123,7 +135,7 @@ namespace Business.Concrete
             return new SuccessResult();
         } 
         
-        private IResult CheckIfCategoryLimitExceded(int categoryId)
+        private IResult CheckIfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll();
             if (result.Data.Count > 15)

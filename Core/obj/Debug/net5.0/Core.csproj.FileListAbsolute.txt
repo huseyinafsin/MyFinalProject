@@ -9,4 +9,3 @@ C:\Users\pantheon\source\repos\MyFinalProject\Core\obj\Debug\net5.0\Core.csproj.
 C:\Users\pantheon\source\repos\MyFinalProject\Core\obj\Debug\net5.0\Core.dll
 C:\Users\pantheon\source\repos\MyFinalProject\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Users\pantheon\source\repos\MyFinalProject\Core\obj\Debug\net5.0\Core.pdb
-C:\Users\pantheon\source\repos\MyFinalProject\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache

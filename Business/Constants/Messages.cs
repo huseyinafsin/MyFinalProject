@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Entities.Concrete;
 
 namespace Business.Constants
 {
@@ -15,5 +16,15 @@ namespace Business.Constants
         public static string ProductCountOfCategoryError = "Ürün eklerken her bir kategori içerisinde en fazla 10 ürün olabilir";
         public static string ProductNameAlreadyExists = "Ürün zaten ekli";
         public static string CheckIfCategoryLimitExceded = "Mevcut kategori sayısı 15'i geçtiyse ürün eklenemez";
+        public static string? AuthorizationDenied = "Yetkilendirme Başarısız !";
+        public static string UserRegistered = "Kullanıcı kayıt olundu.";
+        public static string UserNotFound = "Kullanıcı bulunmadı";
+        public static string PasswordError = "Şifre hatalı";
+
+        public static string SuccessfulLogin = "Giriş başarılı";
+        public static string UserAlreadyExists = "Kullanıcı zaten kayıtlı";
+        public static string AccessTokenCreated = " Access Token oluşturuldu";
+
+        public static string ProductUpdated = "Product Updated";
     }
 }
