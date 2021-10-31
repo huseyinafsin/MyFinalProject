@@ -8263,11 +8263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\WebAPI\\obj\\",
+      "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8284,14 +8284,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Business\\Business.csproj"
+            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Business\\Business.csproj": {
+              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Business\\Business.csproj"
             },
-            "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Entities\\Entities.csproj"
+            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj": {
+              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l0+38IpjDq2tNhiScuRKzW5mSHlmuNKNC1ARYhePORqqgZ+JJWMs8d4XVJy5zpd20jPZnTeOdGzBKqhsnrA9rw==",
+  "dgSpecHash": "ZrW37Ecb7M8bm+zX2up7uAUgHrA2Wep1sKsO9JgEPdNF+dg+aOuU2yylionczub0dj2HJgRzT/qcXy0s6X3qFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+  "projectFilePath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

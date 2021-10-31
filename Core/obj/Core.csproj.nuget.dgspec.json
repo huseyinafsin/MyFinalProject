@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\Core.csproj": {}
+    "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\Core.csproj": {
+    "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\Core\\obj\\",
+        "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",

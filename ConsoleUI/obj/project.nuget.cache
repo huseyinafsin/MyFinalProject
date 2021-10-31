@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CS25yU9iy+Q8NUVaYRB29Eqk0cJZua0Ulv0eYSgvYPQmYfaZbGGgPLM5P01IbZRQrnMQSWumy4BxOK5lPDU2Gw==",
+  "dgSpecHash": "x57+AOv01Fx+uF1BpSuNwmUAg+dZox33E3lzv7YaMGnTflX68JeTyonsJbEEbBPd+79CapUh7lOckagFzAKKbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
