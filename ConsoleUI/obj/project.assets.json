@@ -8116,11 +8116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8137,14 +8137,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Business\\Business.csproj": {
-              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Business\\Business.csproj"
+            "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Business\\Business.csproj"
             },
-            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\DataAccess\\DataAccess.csproj"
             },
-            "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj"
+            "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oXu/lCou7Cu3JoDt8OmWEDP2gjagFIX2HXLPT9CHywF4eWkKLPaqlrwUmEleP0C8AtIkSzMrQjc2NNskiV7wZA==",
+  "dgSpecHash": "vo6K8ZAWu5y3/v1zsNqkXBHPx6e+Ky8/VmTUYw3VJQINaziTEcadB5G5UhqNOgh7KL3j6UmAIP0kApXBiGKY4Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

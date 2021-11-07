@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hirQhh+jw2ipiDHd6nJZT1ShaegHj4qAxWKcJW5+IW627wBgwBuhWNh9xb6jDmfwkAjS7jKOPoMjtbSlhR/XjA==",
+  "dgSpecHash": "uw7rTEsUHdS+cnI5b/EL1IkyT9fTQYVUJh0o/EcdDNoo6DDGuBLCx2TgO3S9Gb7qF4nYop5MwPw4VsLcj55c0g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj": {}
+    "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,14 +108,14 @@
         }
       }
     },
-    "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,8 +132,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj"
               }
             }
           }

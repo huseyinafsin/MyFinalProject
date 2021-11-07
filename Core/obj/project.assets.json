@@ -7710,11 +7710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\pantheon\\source\\repos\\Frontend\\Northwind\\Core\\obj\\",
+      "outputPath": "C:\\Users\\pantheon\\source\\repos\\Northwind-Backend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
