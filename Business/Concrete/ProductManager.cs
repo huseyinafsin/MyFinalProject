@@ -68,13 +68,13 @@ namespace Business.Concrete
             return new SuccessDataResult<Product> (_productDal.Get(p => p.ProductId == productId), Messages.ProductListed);
         }
 
-        [SecuredOperation("product.add")]
+        //[SecuredOperation("product.add")]
         [CacheRemoveAspect("IProductService.Get")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
             IResult result = BusinessRules.Run(CheckIfProductNameIsExist(product.ProductName),
-                                                CheckIfProductOfCategoryCorrect(product.CategoryId),
+                                                 CheckIfProductOfCategoryCorrect(product.CategoryId),
                                                 CheckIfCategoryLimitExceded());
 
             if (result != null)

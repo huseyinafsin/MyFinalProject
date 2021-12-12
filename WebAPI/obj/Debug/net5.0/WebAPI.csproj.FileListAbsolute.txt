@@ -158,10 +158,11 @@ C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
-C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.xml
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
+C:\Users\pantheon\source\repos\Northwind-Backend\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
